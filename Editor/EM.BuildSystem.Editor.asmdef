@@ -1,0 +1,19 @@
+{
+    "name": "EM.BuildSystem.Editor",
+    "rootNamespace": "",
+    "references": [
+        "EM.BuildSystem",
+        "EM.Foundation.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
