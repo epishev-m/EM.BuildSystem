@@ -1,7 +1,7 @@
 namespace EM.BuildSystem.Editor
 {
 
-using Foundation.Editor; 
+using Assistant.Editor;
 using UnityEditor;
 
 public sealed class AssistantWindowComponentBuildSystem : ScriptableObjectAssistantWindowComponent<VersionConfig>
@@ -12,7 +12,7 @@ public sealed class AssistantWindowComponentBuildSystem : ScriptableObjectAssist
 
 	protected override string GetCreatePath()
 	{
-		var path = EditorUtility.SaveFilePanelInProject("Create Version Settings", "VersionSettings.asset", "asset", "");
+		var path = EditorUtility.SaveFilePanelInProject("Create Version Settings", "VersionConfig.asset", "asset", "");
 
 		return path;
 	}
