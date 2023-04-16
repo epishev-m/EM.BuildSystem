@@ -4,7 +4,7 @@ namespace EM.BuildSystem.Editor
 using Assistant.Editor;
 using UnityEditor;
 
-public sealed class AssistantWindowComponentBuildSystem : ScriptableObjectAssistantWindowComponent<VersionConfig>
+public sealed class AssistantComponentBuildSystem : ScriptableObjectAssistantComponent<VersionConfig>
 {
 	#region ScriptableObjectAssistantWindowComponent
 
