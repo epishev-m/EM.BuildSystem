@@ -1,7 +1,7 @@
-﻿namespace EM.BuildSystem
-{
+﻿using EM.Foundation;
 
-using Foundation;
+namespace EM.BuildSystem
+{
 
 public sealed class VersionAddressableAssetFactory : AddressableAssetFactory<VersionConfig>
 {
