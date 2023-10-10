@@ -14,7 +14,9 @@ scopedRegistries": [
   "name": "OpenUPM",
   "url": "https://package.openupm.com",
   "scopes": [
-    "com.em"
+    "com.em",
+    "com.cysharp",
+    "com.yamldotnet"
   ]
 }
 ```
@@ -22,10 +24,11 @@ scopedRegistries": [
 ```ps1
 https://www.nuget.org/packages/EM.BuildSystem
 ```
+
 ## Dependencies
 - com.unity.addressables
 - [com.cysharp.unitask](https://openupm.com/packages/com.cysharp.unitask/)
-- [com.em.foundation](https://openupm.com/packages/com.em.foundation/)
+- [com.em.assistant](https://openupm.com/packages/com.em.assistant/)
 
 ## Instructions
 [Instructions](UPM/README.md)

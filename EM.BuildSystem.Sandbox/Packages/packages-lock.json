@@ -7,12 +7,23 @@
       "dependencies": {},
       "url": "https://package.openupm.com"
     },
+    "com.em.assistant": {
+      "version": "0.0.2",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.yamldotnet.uni": "13.2.0",
+        "com.unity.addressables": "1.21.18"
+      },
+      "url": "https://package.openupm.com"
+    },
     "com.em.buildsystem": {
       "version": "file:../../UPM",
       "depth": 0,
       "source": "local",
       "dependencies": {
-        "com.em.foundation": "1.1.0"
+        "com.em.foundation": "1.1.0",
+        "com.em.assistant": "0.0.2"
       }
     },
     "com.em.foundation": {
@@ -88,6 +99,13 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
+    },
+    "com.yamldotnet.uni": {
+      "version": "13.2.0",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",

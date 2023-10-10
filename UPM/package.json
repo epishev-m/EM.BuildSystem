@@ -1,12 +1,13 @@
 {
   "name": "com.em.buildsystem",
   "displayName": "EM.BuildSystem",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "Maxim Epishev",
     "email": "epishev.m@mail.ru"
   },
   "dependencies": {
-    "com.em.foundation": "1.1.0"
+    "com.em.foundation": "1.1.0",
+    "com.em.assistant": "0.0.2"
   }
 }

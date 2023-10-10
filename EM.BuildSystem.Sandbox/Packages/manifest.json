@@ -42,7 +42,8 @@
       "url": "https://package.openupm.com",
       "scopes": [
         "com.em",
-        "com.cysharp"
+        "com.cysharp",
+        "com.yamldotnet"
       ]
     }
   ]
